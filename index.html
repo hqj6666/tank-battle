@@ -599,7 +599,7 @@ function update() {
 
 function respawnPlayer() {
   const sx = Math.floor(COLS / 2) * CELL + 2;
-  const sy = (ROWS - 1) * CELL + 2;
+  const sy = (ROWS - 2) * CELL + 2;
   if (player) {
     player.x = sx;
     player.y = sy;
